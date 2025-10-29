@@ -1,4 +1,4 @@
-# Intro to Git
+# Introduction to Git
 
 This is an introduction to Git version control. One of the first things we can do is initialize a git repository.
 
@@ -40,7 +40,9 @@ Let's make another commit, and then push our code using the following:
 git push github <branch>
 ```
 
-### Shortcuts
+Git tracks only files. When tracking the folder, make the hidden file inside the folder.
+
+### Commands
 
 ```
 q: bring you out
@@ -51,5 +53,6 @@ man git: manual
 pwd: show directory
 git help: git help log, git help commit etc
 git diff: show differences
-
+git log --oneline: show log in one line
+git checkout -: "-" means previous
 ```
