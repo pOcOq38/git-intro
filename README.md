@@ -50,5 +50,6 @@ git -v: version
 man git: manual
 pwd: show directory
 git help: git help log, git help commit etc
+git diff: show differences
 
 ```
