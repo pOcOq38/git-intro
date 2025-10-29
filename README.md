@@ -16,9 +16,39 @@ Another git command that we can use right now is `git status`.
 
 In order to track a file, we can tell git to track it, using the `git add <filename>` command, or if we want to track all files, we can use `git add .` or `git add -A`.
 
+And to save, in git we use the `git commit` command.
+So, lets make our first commit!
+
+```
+git commit -m 'Initial commit'
+```
+
+## Sharing with Github
+
+Now I'm going to add a remote repo. This is just a way to share code with a central code directory that others can access as well. In this case, we'll use Github.
+Go to github, create a new repository, and add it to your project with the `git remote` command.
+
+```
+git remote add origin <github-repository-url>
+```
+
+Now that we have a remote repository and a remote set up, we can push out code to it.
+
+Let's make another commit, and then push our code using the following:
+
+```
+git push github <branch>
+```
+
+### Shortcuts
+
+```
 q: bring you out
 j/k/d/w: up and down
 ctrl+c: quit
 git -v: version
 man git: manual
 pwd: show directory
+git help: git help log, git help commit etc
+
+```
