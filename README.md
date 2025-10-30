@@ -89,6 +89,16 @@ And then push to github
 git push origin master
 ```
 
+or
+
+Creating a Pull Request
+
+Push Your Branch to GitHub
+
+```
+git push origin feature/javascript
+```
+
 ### Commands
 
 ```
