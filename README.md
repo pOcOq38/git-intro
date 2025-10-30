@@ -57,7 +57,28 @@ git checkout -b feature/javascript
 
 And let's creat an HTML web page with som JS that sends an alert to say "Hello World!"
 
-Git tracks only files. When tracking the folder, make the hidden file inside the folder.
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScripting</title>
+    <script>
+      alert("Hello World!");
+    </script>
+  </head>
+  <body>
+    <h1>My Cool Website</h1>
+  </body>
+</html>
+```
+
+Commit the channges, then let's merge them into the `master` branch.
+
+```
+git push origin master
+```
 
 ### Commands
 
@@ -72,4 +93,10 @@ git help: git help log, git help commit etc
 git diff: show differences
 git log --oneline: show log in one line
 git checkout -: "-" means previous
+```
+
+### tips
+
+```
+Git tracks only files. When tracking the folder, make the hidden file inside the folder.
 ```
