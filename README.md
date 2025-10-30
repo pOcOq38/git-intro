@@ -40,6 +40,23 @@ Let's make another commit, and then push our code using the following:
 git push github <branch>
 ```
 
+## Git branches
+
+Let's start by creating a new `feature/javascript` and we'll add a folder with some HTML and JavaScript to run in out browser.
+
+```
+git branch feature/javascript
+git checkout feature/javascript
+```
+
+or in one line
+
+```
+git checkout -b feature/javascript
+```
+
+And let's creat an HTML web page with som JS that sends an alert to say "Hello World!"
+
 Git tracks only files. When tracking the folder, make the hidden file inside the folder.
 
 ### Commands
