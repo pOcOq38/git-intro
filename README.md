@@ -77,6 +77,15 @@ And let's creat an HTML web page with som JS that sends an alert to say "Hello W
 Commit the channges, then let's merge them into the `master` branch.
 
 ```
+git add -A
+git commit -m 'Adds JavaScript'
+git checkout master
+git merge feature/javascript
+```
+
+And then push to github
+
+```
 git push origin master
 ```
 
